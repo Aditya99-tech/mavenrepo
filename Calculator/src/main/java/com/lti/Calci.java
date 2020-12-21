@@ -14,7 +14,7 @@ public class Calci {
 		// TODO Auto-generated method stub
 		System.out.println("Sum="+add(10,20));
 		System.out.println("Difference="+subs(90,20));
-
+		System.out.println("Multiplication="+prod(30,2));
 	}
 
 }
