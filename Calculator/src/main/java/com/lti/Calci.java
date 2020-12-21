@@ -10,10 +10,14 @@ public class Calci {
 	public static int prod(int num1, int num2) {
 		return num1*num2;
 	}
+	public static int div(int num1, int num2) {
+		return num1/num2;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Sum="+add(10,20));
 		System.out.println("Difference="+subs(90,20));
+		System.out.println("Quoteint="+div(10,2));
 		System.out.println("Multiplication="+prod(30,2));
 	}
 
